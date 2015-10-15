@@ -7,7 +7,6 @@ font-size:1.8em;
 }
 
 #topRow {
-margin-top:100px;
 text-align:center;
 }
 
@@ -24,11 +23,7 @@ font-weight:bold;
 }
 
 .marginTop {
-margin-top:30px;
-}
-
-.bmareginTop{
- margin-top:45px;
+margin-top:50px;
 }
 
 .center {
@@ -49,25 +44,26 @@ width:100%;
 .marginBottom {
 margin-bottom:30px;
 }
+
 .appstoreImage {
 width:250px;
 }
 
+body {
+    font-family: 'Poiret One', cursive;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #266D22;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
+    font-family: 'Great Vibes', cursive;
     font-weight: 500;
     line-height: 1.1;
     color: #266D22;
 }
 
 .navbar-default .navbar-brand {
-    color: #266D22;
-}
-
-body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
     color: #266D22;
 }
 
@@ -80,14 +76,36 @@ body {
     color: #266D22;
 }
 
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8em;
+}
+
 #topContainer {
 background-image: url("images/background.jpg");
 height:400px;
 width:100%;
 background-size:cover;
 color:white;
+margin-top:-20px;
 }
 
 #topContainer h1{
 color:white;
+}
+
+a {
+    color: #266D22;
+    text-decoration: none;
+}
+
+.nav {
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    height: 2em;
+}
+
+.marginTopb{
+    margin-top:30px;
 }
